@@ -10,90 +10,99 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="navigation list">
+      <div class="container">
+        <nav>
+          <ul class="navigation list">
+            <li>
+              <a href="./index.html" class="logo"
+                ><span class="accent">Web</span>Studio</a
+              >
+            </li>
+            <li>
+              <a href="./index.html" class="navigation-item current">Студія</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="navigation-item">Портфоліо</a>
+            </li>
+            <li>
+              <a href="./contacts.html" class="navigation-item">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact list">
           <li>
-            <a href="./index.html" class="logo"
-              ><span class="accent">Web</span>Studio</a
+            <a href="mailto:info@devstudio.com" class="contact-item"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="./index.html" class="navigation-item current">Студія</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="navigation-item">Портфоліо</a>
-          </li>
-          <li>
-            <a href="./contacts.html" class="navigation-item">Контакти</a>
+            <a href="tel:+380961111111" class="contact-item">
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
-      </nav>
-      <ul class="contact list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact-item"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contact-item">
-            +38 096 111 11 11
-          </a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section class="section">
-        <!-- Hero -->
-        <!-- <img src="./images/Bg.svg" alt="Фоновий малюнок" width="1600"> -->
-        <h1 class="hero">Ефективні рішення для вашого бізнесу</h1>
-        <button class="buttom primary">Замовити послугу</button>
+      <section class="section hero"> <!-- Hero -->
+<div class="container">
+          <!-- <img src="./images/Bg.svg" alt="Фоновий малюнок" width="1600"> -->
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="button primary">Замовити послугу</button>
+</div>
       </section>
-      <section>
-        <!--Whay we-->
-        <ul class="preference list">
-          <li>
-            <h3 class="preference-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li>
-            <h3 class="preference-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li>
-            <h3 class="preference-title">ПЛАНУВАННЯ</h3>
-            <p>
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li>
-            <h3 class="preference-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+      <section class="section preference"> <!--Whay we-->
+        <div class="container">
+          <ul class="preference list">
+            <li>
+              <h3 class="preference-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p>
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li>
+              <h3 class="preference-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p>
+                Завдання організації, особливо рамки і місце навчання кадрів тягне
+                у себе.
+              </p>
+            </li>
+            <li>
+              <h3 class="preference-title">ПЛАНУВАННЯ</h3>
+              <p>
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li>
+              <h3 class="preference-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p>
+                Значимість цих проблем настільки очевидна, що реалізація планових
+                завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="activity">
-        <!-- What we do -->
-        <h2 class="activity-title">Чим ми займаємося</h2>
-        <img src="./images/wwd1.jpg" alt="Діяльність 1" width="370" />
-        <img src="./images/wwd2.jpg" alt="Діяльність 2" width="370" />
-        <img src="./images/wwd3.jpg" alt="Діяльність 3" width="370" />
+      <section class="section activity"> <!-- What we do -->
+        <div class="container">
+          <h2 class="activity-title">Чим ми займаємося</h2>
+          <img src="./images/wwd1.jpg" alt="Діяльність 1" width="370" />
+          <img src="./images/wwd2.jpg" alt="Діяльність 2" width="370" />
+          <img src="./images/wwd3.jpg" alt="Діяльність 3" width="370" />
+        </div>
       </section>
-      <section class="team">
-        <!-- Our team -->
-        <h2 class="team-title">Наша команда</h2>
+      <section class="section team"> <!-- Our team -->
+        <div class="container">
+          <h2 class="team-title">Наша команда</h2>
         <ul class="list">
           <li>
             <img
@@ -128,14 +137,16 @@
             <p class="team-position">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer>
-      <img
+      <div class="container">
+        <!-- <img
         src="./images/Footerbg.svg"
         alt="Сірий фон підвалу сторінки"
         width="1600"
-      />
+      /> -->
       <ul class="footer list">
         <li>
           <a href="./index.html" class="logo"
@@ -154,6 +165,7 @@
           <a href="tel:+380961111111" class="contact-item">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </footer>
   </body>
 </html>
